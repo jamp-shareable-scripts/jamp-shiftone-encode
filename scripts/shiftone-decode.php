@@ -38,7 +38,7 @@ function shiftoneDecode($input) {
 }
 
 $input = NULL;
-if ($argv[2]) {
+if (isset($argv[2])) {
 	$input = array_slice($argv, 1);
 }
 else {
